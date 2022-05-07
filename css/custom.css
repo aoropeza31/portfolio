@@ -1,1 +1,17 @@
 /* your styles go here */
+ul{
+    list-style: none;
+}
+
+.img-resize{
+    height: 400px; 
+    width: 400px; 
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 400px) {
+    .img-resize {
+        height: 300px;
+        width: 300px;
+    }
+}
